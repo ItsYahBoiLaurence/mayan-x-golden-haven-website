@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ghweb_db' );
+define( 'DB_NAME', 'your_database_name' );
 
 /** MySQL database username */
-define( 'DB_USER', 'gh_user' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '$Cr@shfr33!$' );
+define( 'DB_PASSWORD', 'goldenhaven' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -77,7 +77,7 @@ $table_prefix = 'gh_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 define( 'WP_CACHE', true /* Modified by NitroPack */ ); // Added by Hummingbird
 /* That's all, stop editing! Happy publishing. */
